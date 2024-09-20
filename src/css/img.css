@@ -1,0 +1,35 @@
+.img-container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .img-container {
+    display: none;
+  }
+}
+
+.listnone {
+  list-style-type: none;
+}
+
+.list-item {
+  padding-right: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
